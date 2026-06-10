@@ -1,0 +1,72 @@
+# Neurotecnologías — Prompt del proyecto
+## Fecha: 19 de mayo de 2026
+
+## Stack
+- **Framework:** Next.js 16.2.6 (Turbopack)
+- **UI:** shadcn/ui + Tailwind CSS v4
+- **Animaciones:** GSAP v3.15.0, Swiper v12.1.4, Lottie Web v5.13.0, tw-animate-css v1.4.0
+- **Lenguaje:** TypeScript
+- **Fuentes:** Inter (texto), Manrope (títulos) — locales
+
+## Estructura actual
+
+**Página principal (`/`):** Single `"use client"` page con secciones:
+- Hero (estadísticas: 20+ años, EMT/tDCS/TEC, USA/LatAm)
+- "Más de 20 años impulsando la neurotecnología" (4 tarjetas con iconos)
+- Áreas clínicas (6 → reducido a 5, se eliminó Anestesiología)
+- Productos destacados (6 productos con imágenes locales, clickables → enlazan a specialty pages)
+- "Para quién es" (6 tipos de cliente)
+- Contenido SEO / educativo
+- FAQ con acordeón
+- Formulario de contacto
+- Footer
+
+**Páginas de especialidad (categorías):**
+- `/neuromodulacion/` — 6 productos (EMT, Neuronavegador BST, TEC, Neurofeedback, tDCS, TPS)
+- `/neurofisiologia/` — 16 productos (EEG, EMG, PE, PSG, etc.)
+- `/neurointensivismo/` — 3 productos (Monitor FC/aEEG, Doppler, Pupilometría)
+- `/neurocirugia/` — 3 productos (Estimulador cortical, Monitor 32/64ch, NeuroNavegador)
+- `/neurorehabilitacion/` — 2 productos (Re-educación marcha, EMT terapéutica)
+
+Cada página de especialidad muestra sus productos en un grid con imágenes.
+
+**Páginas de detalle individual (rutas heredadas, no enlazadas desde `/productos/`):**
+- `/estimulacion-magnetica-transcraneal/`
+- `/tdcs/`
+- `/terapia-electroconvulsiva/`
+- `/investigacion-neurociencia/`
+
+## Cambios clave realizados
+
+1. **Productos reestructurados por especialidad** — `/productos/` ahora muestra 5 categorías (Neurofisiología, Neuromodulación, Neurointensivismo, Neurocirugía, Neurorehabilitación) con imágenes descargadas del live site, cada una enlazando a su página de especialidad.
+
+2. **Imágenes descargadas del live site** (`public/neurotec/`):
+   - 6 imágenes de categoría: `cat-neurofisiologia.png`, `cat-neuromodulacion.png`, `cat-neurointensivismo.png`, `cat-neurocirugia.png`, `cat-neurorehabilitacion.jpg`, `cat-anestesiologia.jpg`
+   - 24 imágenes de productos: `prod-*.png/jpg` (EEG, EMG, PE, EMT, tDCS, TEC, etc.)
+   - 8 imágenes principales de producto: `emt-principal.jpg`, `tdcs-principal.jpg`, `tec-principal.jpg`, `tes-principal.jpg`, `neurofeedback.png`, `tps-principal.jpg`, `navegador-principal.jpg`, `monofasico.avif`
+
+3. **SPECIALTIES array** en `constants.ts` — estructura de datos con 5 categorías, cada una con array de productos (title + img).
+
+4. **Todas las URLs de Unsplash reemplazadas** por assets locales.
+
+5. **Logo SVG** creado en `public/logo.svg` con gradiente teal→cyan.
+
+## Constantes de diseño
+- Paleta azul/teal profesional (clases: `btn-gradient`, `text-gradient`, `chip`, `glass-card`, `card-hover`, `badge`)
+- Gradiente hero: `bg-gradient-to-br from-medical-500 via-medical-600 to-cyan-600`
+- Tipografía: Inter (cuerpo) + Manrope (títulos) — variables CSS `--font-inter` y `--font-manrope`
+- Sin tailwind.config.js — configuración CSS-based via `@tailwindcss/postcss`
+
+## Convenios
+- Todas las rutas en español (slugs)
+- `constants.ts` es la fuente única de verdad para contenido
+- Componentes shadcn/ui en `src/components/ui/`
+- Path alias `@/*` → `./src/*`
+
+## Comandos
+```bash
+yarn dev       # dev server (Turbopack)
+yarn build     # production build
+yarn start     # production server
+yarn lint      # ESLint check (flat config: eslint.config.mjs)
+```

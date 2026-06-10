@@ -1,0 +1,111 @@
+Cambios solicitados para la web de Neurotec 
+1. Diseño de la nueva website 
+1.1. Logo 
+Añadir el logo oficial de Neurotec en la web. 
+Ubicaciones recomendadas: 
+? Header / menú principal. 
+? Footer. 
+? Versión responsive para móvil. 
+? Posible favicon para navegador. 
+ 
+2. Banner de marcas / proveedores 
+Crear un banner de marcas cambiantes o carrusel de partners/proveedores. 
+Marcas que deben aparecer 
+? Neurosoft 
+? SigmaStim / SigmaEstem 
+ Antes se mencionaba como Mecta, pero ahora se debe actualizar a SigmaStim / SigmaEstem. 
+? Una marca adicional pendiente de confirmar por el dueño de Neurotec. 
+Objetivo del banner 
+La web debe transmitir que Neurotec trabaja directamente con marcas/proveedores importantes del sector. No debe sentirse como una web genérica, sino como una empresa conectada con tecnología médica real y proveedores reconocidos. 
+ 
+3. Enfoque de comunicación / filosofía 
+La web debe inspirarse en la filosofía, lenguaje y estilo de contenido de los proveedores. 
+Idea principal 
+Queremos que el visitante relacione a Neurotec con marcas como Neurosoft, SigmaStim/SigmaEstem y otros fabricantes del sector. 
+La sensación debe ser: 
+Neurotec no solo vende productos, sino que forma parte del ecosistema profesional de neurotecnología, neuromodulación, neurodiagnóstico y rehabilitación. 
+Tipo de contenido a conservar o crear 
+? Información técnica de los proveedores. 
+? Artículos o recursos educativos. 
+? Contenido que explique aplicaciones clínicas. 
+? Textos que refuercen confianza, soporte, tecnología y conocimiento especializado. ? Lenguaje similar al de los fabricantes, pero adaptado a Neurotec. 
+ 
+4. Investigación de contenido de proveedores 
+Buscar información actualizada en los canales oficiales de los proveedores. 
+Fuentes a revisar 
+? Web oficial de cada proveedor. 
+? Redes sociales. 
+? YouTube. 
+? Catálogos. 
+? Fichas técnicas. 
+? Artículos. 
+? Documentación descargable. 
+Objetivo 
+Extraer ideas, textos base, referencias visuales, aplicaciones clínicas y argumentos comerciales para nutrir la web de Neurotec. 
+ 
+5. Productos y catálogo 
+La sección de productos debe mantenerse, pero con ajustes. 
+Mantener 
+Todo lo que actualmente está dentro de: 
+
+Especialmente: 
+? Descripciones de producto. 
+? Catálogos. 
+? Documentación técnica. ? Información de equipos. 
+? Contenido útil para médicos, clínicas y centros especializados. 
+Eliminar 
+Eliminar la categoría o sección de: 
+
+El resto de productos y categorías sí se mantienen. 
+ 
+6. Documentación existente 
+Conservar toda la documentación disponible actualmente en la web. 
+Esto incluye: 
+? Catálogos PDF. 
+? Descripciones técnicas. 
+? Fichas de producto. 
+? Información descargable. 
+? Textos relevantes de producto. 
+La idea no es empezar desde cero, sino rediseñar y reorganizar lo que ya existe, manteniendo el valor técnico actual. 
+ 
+7. Vídeos 
+Eliminar los enlaces de vídeo actuales. 
+Acción 
+? Revisar los vídeos existentes. 
+? Eliminar enlaces antiguos, rotos o poco profesionales. 
+? Valorar si más adelante se sustituyen por vídeos oficiales de proveedores o vídeos propios de Neurotec. 
+ 
+8. Actualización de marca: Mecta 
+Actualizar cualquier referencia antigua a: 
+
+Por la marca actual: 
+
+Conviene confirmar exactamente cuál es el nombre comercial correcto que quiere usar Neurotec en la web. 
+ 
+Alcance principal del proyecto 
+Fase 1 — Diseño nueva website 
+Crear una nueva web para Neurotec con diseño actual, moderno, médico y tecnológico. 
+Objetivos 
+? Mejorar imagen de marca. 
+? Dar más confianza. 
+? Ordenar productos y servicios. 
+? Transmitir relación con proveedores oficiales. 
+? Crear una web más clara, moderna y preparada para SEO. ? Mantener documentación técnica importante. 
+ 
+Fase 2 — Hosting 
+Revisar y definir el hosting de la web. 
+Tareas posibles 
+? Ver dónde está alojada la web actual. 
+? Evaluar si conviene migrarla. 
+? Revisar velocidad, seguridad y soporte. 
+? Configurar dominio. 
+? Configurar SSL. 
+? Hacer copia de seguridad antes de tocar la web. 
+? Mantener emails si están asociados al dominio. 
+? Preparar entorno para WordPress o la plataforma que se decida usar. 
+ 
+Resumen ejecutivo 
+El dueño de Neurotec quiere una nueva web moderna, con mejor diseño, mejor estructura y una imagen más profesional. La web debe mantener el contenido técnico y los productos actuales, excepto anestesiología, pero debe mejorar mucho la presentación visual y comercial. 
+También quiere que la web transmita conexión con proveedores importantes como Neurosoft y SigmaStim/SigmaEstem, usando contenido, filosofía y referencias de sus webs, redes sociales y YouTube. 
+Además, hay que eliminar enlaces de vídeo antiguos, conservar catálogos y documentación, añadir el logo y crear un banner/carrusel de marcas proveedoras. 
+ 
